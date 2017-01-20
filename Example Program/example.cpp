@@ -5,17 +5,17 @@ using namespace std;
 int main()
 {
     // Variable declarations
-    string name, color;
+    string name, car;
 
     // Output and input
     cout << "Hello, what is your name? ";
     cin >> name;
 
-    cout << "What is your favorite color? ";
-    cin >> color;
+    cout << "What is your favorite car? ";
+    cin >> car;
 
     cout << endl;
-    cout << "So can I call you " << color << " " << name << "?" << endl;
+    cout << "So can I call you " << car << " " << name << "?" << endl;
 
     return 0;
 }
